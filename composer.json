@@ -1,0 +1,17 @@
+{
+    "name": "the-codeur/ownframework",
+    "autoload": {
+        "psr-4": {
+            "TheCodeur\\Ownframework\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "The-Codeur"
+    }],
+    "require": {
+        "illuminate/database": "^8.46",
+        "illuminate/events": "^8.46",
+        "vlucas/phpdotenv": "^5.3",
+        "jenssegers/blade": "^1.4"
+    }
+}
